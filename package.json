@@ -1,11 +1,15 @@
 {
-  "name": "calendar-react",
+  "name": "atakan-calendar",
   "version": "0.0.1",
   "description": "Calendar component for React app ",
   "main": "./src/index.tsx",
   "license": "MIT",
   "scripts": {
     "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atakanyeniceli/calendar"
   },
   "dependencies": {
     "react": "^18.0.0",
