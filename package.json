@@ -1,5 +1,5 @@
 {
-  "name": "calendar",
+  "name": "calendar-react",
   "version": "0.0.1",
   "description": "Calendar component for React app ",
   "main": "./src/index.tsx",
