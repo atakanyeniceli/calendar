@@ -1,8 +1,13 @@
 import CalendarView from "./components/calendarView"
 import { CalendarProvider } from "./context/calendarContext"
-const Calendar = () => {
+interface IProps {
+    _onValue?: Date,
+    _onChange?: React.Dispatch<React.SetStateAction<Date>>
+}
+
+const Calendar = ({ _onValue, _onChange }: IProps) => {
     return (
-        <CalendarProvider>
+        <CalendarProvider onChange={_onChange} onValue={_onValue}>
             <CalendarView />
         </CalendarProvider>
     )
