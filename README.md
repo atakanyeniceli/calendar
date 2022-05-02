@@ -6,8 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 You can start using this component by including it in your project.
 
 # Example usage
+'''
 const [date,setDate]=useState() 
-'<Calendar onChange={setDate} onValue={date}/>'
+<Calendar onChange={setDate} onValue={date}/>'''
 
 ## Learn More
 
