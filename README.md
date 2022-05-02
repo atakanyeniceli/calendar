@@ -7,7 +7,7 @@ You can start using this component by including it in your project.
 
 # Example usage
 ```
-const [date,setDate]=useState() 
+const [date,setDate]=useState(new Date()) 
 <Calendar onChange={setDate} onValue={date}/>
 ```
 
