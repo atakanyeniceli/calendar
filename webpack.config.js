@@ -3,9 +3,6 @@ const path = require("path")
 module.exports = {
     mode: "production",
     entry: "./src/index.tsx",
-    resolve: {
-        extensions: ['.tsx', '.ts', '.js', 'jsx'],
-    },
     module: {
         rules: [{
             test: /\.tsx?$/,
@@ -19,9 +16,11 @@ module.exports = {
         },
         ]
     },
-
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js', 'jsx'],
+    },
     output: {
-        filename: "index.tsx",
+        filename: "index.jsx",
         path: path.resolve(__dirname, 'dist')
     }
 }
